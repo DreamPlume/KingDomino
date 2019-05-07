@@ -1,0 +1,17 @@
+= KingDomino
+
+---
+
+* *GATEL Mateo*
+* *POLESE Malo*
+
+---
+
+Ce jeu est inspirée du jeu de société KingDomino http://www.blueorangegames.eu/pf/kingdomino_fr/
+
+image:https://images-na.ssl-images-amazon.com/images/I/91dzRz3V7OL._SL1500_.jpg[alt="not bad.",width=260,height=250]
+
+---
+
+Nous somme des étudiants de 1er année informatique.
+Ce projet est un projet a pour but d'être utiliser pour un usage `privé, personelle` si il est abouti.
