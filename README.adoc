@@ -1,4 +1,4 @@
-= KingDomino
+﻿= KingDomino
 
 ---
 
@@ -13,5 +13,5 @@ image:https://images-na.ssl-images-amazon.com/images/I/91dzRz3V7OL._SL1500_.jpg[
 
 ---
 
-Nous somme des étudiants de 1er année informatique.
-Ce projet est un projet a pour but d'être utiliser pour un usage `privé, personelle` si il est abouti.
+Nous sommes des étudiants de 1er année en DUT informatique.
+Ce projet a pour but d'être utilisé dans un cadre `privé, personnel` si il est abouti.
