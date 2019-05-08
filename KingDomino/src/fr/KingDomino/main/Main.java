@@ -10,7 +10,7 @@ public class Main {
 
 			@Override
 			public void run() {
-				new Frame("TITRE");
+				new Frame("KingDomino");
 			}
 		});
 	}
