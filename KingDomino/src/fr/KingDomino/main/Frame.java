@@ -16,6 +16,10 @@ import fr.KingDomino.panel.GamePanel;
 import fr.KingDomino.service.ThreadGame;
 
 
+/**
+ * @author Malo Polèse
+ *
+ */
 public class Frame extends JFrame{
 
 	private static final long serialVersionUID = 3269482030395735676L;
@@ -57,7 +61,7 @@ public class Frame extends JFrame{
 		this.cards.add(GAME, this.gameP);
 		this.cards.add(END, this.gameE);
 		
-		JPanel boutonPan = new JPanel();
+		/*JPanel boutonPan = new JPanel();
 		JButton button = new JButton("NEXT");
 		button.addActionListener(new ActionListener() {
 			
@@ -69,7 +73,8 @@ public class Frame extends JFrame{
 		boutonPan.add(button);
 		
 		
-		//this.getContentPane().add(boutonPan, BorderLayout.NORTH);
+		this.getContentPane().add(boutonPan, BorderLayout.NORTH);*/
+		
 		this.getContentPane().add(cards , BorderLayout.CENTER);
 		this.setVisible(true);
 	}
@@ -81,5 +86,17 @@ public class Frame extends JFrame{
 	public void nextCl() {
 		this.cl.next(cards);
 	}
+
+	public GameMenu getGameM() {
+		return gameM;
+	}
+
+	public GamePanel getGameP() {
+		return gameP;
+	}
+
+	public GameEnd getGameE() {
+		return gameE;
+	}	
 	
 }

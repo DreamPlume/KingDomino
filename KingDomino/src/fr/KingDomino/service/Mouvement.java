@@ -20,9 +20,9 @@ public class Mouvement implements MouseMotionListener, MouseListener {
 	}
 
 	@Override
-	public void mouseClicked(MouseEvent e) {
-		// TODO Auto-generated method stub
-
+	public void mouseDragged(MouseEvent e) {
+		e.getComponent().setLocation((((e.getX() + e.getComponent().getX()) - this.x)/45)*45,
+									 (((e.getY() + e.getComponent().getY()) - this.y)/45)*45);
 	}
 
 	@Override
@@ -32,33 +32,23 @@ public class Mouvement implements MouseMotionListener, MouseListener {
 	}
 
 	@Override
-	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
+	public void mouseClicked(MouseEvent e) {
+	}
 
+	@Override
+	public void mouseReleased(MouseEvent e) {
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void mouseDragged(MouseEvent e) {
-		e.getComponent().setLocation((e.getX() + e.getComponent().getX()) - this.x,
-									 (e.getY() + e.getComponent().getY()) - this.y);
 	}
 
 	@Override
 	public void mouseMoved(MouseEvent e) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
